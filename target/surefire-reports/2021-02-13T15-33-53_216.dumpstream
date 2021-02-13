@@ -1,0 +1,4 @@
+# Created at 2021-02-13T15:33:53.436
+Boot Manifest-JAR contains absolute paths in classpath 'D:\MyJunk\MyData\MyTrash\Java\Hybris\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

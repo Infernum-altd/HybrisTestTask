@@ -1,0 +1,13 @@
+models\OrderTests.class
+views\HomeViewTests.class
+views\RepresentOrdersViewTests.class
+models\OrderItemTests.class
+models\ProductTests.class
+views\CreateProductViewTests.class
+views\RepresentViewTest.class
+views\CreateViewTests.class
+utils\PropertyReaderTests.class
+views\CreateOrderViewTests.class
+views\RepresentOrderedProductsViewTests.class
+utils\ConsoleReadWriteTests.class
+views\RepresentProductsViewTests.class

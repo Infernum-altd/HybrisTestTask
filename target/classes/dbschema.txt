@@ -1,0 +1,27 @@
+CREATE TABLE orders
+(
+	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	user_id INTEGER,
+	status VARCHAR(50),
+	created_at TIMESTAMP
+);
+
+CREATE TABLE products
+(
+	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50),
+	price INTEGER,
+	status ENUM('out_of_stock','in_stock','running_low'),
+	created_at TIMESTAMP
+);
+
+CREATE TABLE order_items
+(
+	order_id INTEGER,
+	product_id INTEGER,
+	quantity INTEGER
+	FOREIGN KEY (order_id)  REFERENCES orders (id),
+	FOREIGN KEY (product_id)  REFERENCES products (id)
+);
+
+
